@@ -1,5 +1,6 @@
-import styled from 'styled-components'
-import db from '../db.json'
+import styled from 'styled-components';
+import Head from 'next/head';
+import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GithubCorner';
@@ -20,6 +21,12 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>The Office Quiz</title>
+        <meta name="viewport" content="initial-scale=1.0" width="device-width"/>
+        <meta property="og:image" content="https://wallpaperaccess.com/full/1146177.jpg"/>
+
+      </Head>
       <QuizContainer>
         <Widget>
             <Widget.Header>
