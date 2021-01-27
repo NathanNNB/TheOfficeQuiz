@@ -1,6 +1,11 @@
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
 import styled from 'styled-components';
+import { useRouter } from 'next/router';
+
 import Head from 'next/head';
 import db from '../db.json';
+// eslint-disable-next-line import/no-named-as-default
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GithubCorner';
@@ -17,25 +22,40 @@ export const QuizContainer = styled.div`
   }
 `;
 
-
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+  console.log('retorno do useState', name, setName);
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>The Office Quiz</title>
-        <meta name="viewport" content="initial-scale=1.0" width="device-width"/>
-        <meta property="og:image" content="https://wallpaperaccess.com/full/1146177.jpg"/>
-
       </Head>
       <QuizContainer>
         <Widget>
-            <Widget.Header>
-              <h1> The Office Quiz</h1>
+          <Widget.Header>
+            <h1> The Office Quiz</h1>
 
-            </Widget.Header>
+          </Widget.Header>
           <Widget.Content>
-            <p>Não sei</p>
-
+            <form onSubmit={function (infosdoEvento) {
+              infosdoEvento.preventDefault();
+              router.push(`/quiz?name=${name}`);
+            }}
+            >
+              <input
+                onChange={function (infosDoEvento) {
+                  // name = infosDoEvento.target.value;
+                  setName(infosDoEvento.target.value);
+                }}
+                placeholder="Diz ai seu nome"
+              />
+              <button type="submit" disabled={name.length === 0}>
+                Jogar
+                {' '}
+                {name}
+              </button>
+            </form>
           </Widget.Content>
         </Widget>
         <Widget>
@@ -46,9 +66,9 @@ export default function Home() {
 
           </Widget.Content>
         </Widget>
-        <Footer/>
+        <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl = 'https://github.com/NathanNNB/TheOfficeQuiz'/>
+      <GitHubCorner projectUrl="https://github.com/NathanNNB/TheOfficeQuiz" />
     </QuizBackground>
-  )
+  );
 }
