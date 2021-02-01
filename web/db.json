@@ -4,25 +4,113 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://media3.giphy.com/media/Flrs2eoOdeI741bZoo/giphy-downsized.gif",
+        "title": "No dia da diversidade, qual é a figura histórica de Michael?",
+        "description": "",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Gandhi",
+          "Martin Luther King Jr",
+          "Abraham Lincoln"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://i.redd.it/3wti67s1kc561.jpg",
+        "title": "Qual o nome do porco espinho que Dwight usa para fazer uma pegadinha em Jim?",
+        "description": "",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Henrietta",
+           "Lietta",
+           "Henry"
+        ]
+      },
+      {
+        "image": "https://img.buzzfeed.com/buzzfeed-static/static/2019-01/6/15/asset/buzzfeed-prod-web-06/anigif_sub-buzz-1245-1546805830-1.gif?output-quality=auto&output-format=auto&downsize=360:*",
+        "title": "Segundo o Dwight, qual o melhor modo de aprender algo? ",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Lendo",
+           "Experiência",
+           "Observando quem é bom"
+        ]
+      },
+      {
+        "image": "https://thumbs.gfycat.com/AmusedLazyAllensbigearedbat-small.gif",
+        "title": "O que Ryan estava esquentando quando colocou fogo no escritório ?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Pizza",
+           "Cheesy Pita",
+           "Tortilla"
+        ]
+      },
+      {
+        "image": "https://pa1.narvii.com/7212/7bc2dcbd62eac5230e204a67b50fdec08cde753er1-412-200_hq.gif",
+        "title": "Qual prêmio a Pam recebe nos Dundies?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+           "Tênis mais branco",
+           "Mais fofa do escritório",
+           "A mais linda do escritório"
+        ]
+      },
+      {
+        "image": "https://thumbs.gfycat.com/GrayMetallicIchidna-small.gif",
+        "title": "Durante o episódio em que Dwight luta com Michael, qual a faixa de Dwight no Karate?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "Preta",
+           "Marrom",
+           "Roxa"
+        ]
+      },
+      {
+        "image": "https://i.redd.it/5tjbyczzblk01.jpg",
+        "title": "Qual a música de natal favorita da Angela?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+           "Little Drummer Boy",
+           "O Come let us Adore him",
+           "Silent Night"
+        ]
+      },
+      {
+        "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-04/9/20/asset/buzzfeed-prod-web-09/anigif_sub-buzz-11105-1523318712-1.gif",
+        "title": "Durante a festa na casa de Michael, o que ele está ansioso para mostrar ?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Uma mesa de pebolim",
+           "Uma TV de plasma",
+           "Sua coleção de filmes"
+        ]
+      },
+      {
+        "image": "https://i.gifer.com/6LS0.gif",
+        "title": "Jim torce para qual time de basquete?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "Denver Nuggets",
+           "Boston Celtics",
+           "Philadelphia 76ers"
+        ]
+      },
+      {
+        "image": "https://media1.tenor.com/images/84d0f1ad4ad626beff3d7a816803ed79/tenor.gif?itemid=11570592",
+        "title": "Quantos dólares Jim gastou na fantasia de Dwight?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "$8,00",
+           "$12,00",
+           "$11,00"
         ]
       }
     ],
